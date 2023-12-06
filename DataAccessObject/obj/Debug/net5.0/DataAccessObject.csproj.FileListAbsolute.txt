@@ -1,0 +1,16 @@
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\bin\Debug\net5.0\appsettings.json
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\bin\Debug\net5.0\DataAccessObject.deps.json
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\bin\Debug\net5.0\DataAccessObject.dll
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\bin\Debug\net5.0\DataAccessObject.pdb
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\obj\Debug\net5.0\DataAccessObject.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\obj\Debug\net5.0\DataAccessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\obj\Debug\net5.0\DataAccessObject.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\obj\Debug\net5.0\DataAccessObject.AssemblyInfo.cs
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\obj\Debug\net5.0\DataAccessObject.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\obj\Debug\net5.0\DataAccessObject.csproj.CopyComplete
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\obj\Debug\net5.0\DataAccessObject.dll
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\obj\Debug\net5.0\refint\DataAccessObject.dll
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\obj\Debug\net5.0\DataAccessObject.pdb
+C:\Users\pc\Desktop\FPTU work document\PRN211_work\Ass03Solution_NET1705_NguyenPhanManhKhai\DataAccessObject\obj\Debug\net5.0\ref\DataAccessObject.dll

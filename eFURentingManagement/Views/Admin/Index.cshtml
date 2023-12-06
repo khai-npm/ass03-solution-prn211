@@ -1,0 +1,100 @@
+﻿
+@{
+    ViewData["Title"] = "Admin Page";
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome : ADMIN</h1>
+    <p>admin are allowed to modify system's infomation'</p>
+
+    <form asp-controller="Admin" asp-action="SearchSubmit">
+        <label for="textbox">search:</label><br>
+        <input type="text" id="search" name="search"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">
+                    CarID
+                </th>
+                <th scope="col">
+                    CarName
+                </th>
+                <th scope="col">
+                    CarDescription
+                </th>
+                <th scope="col">
+                    NumberOfDoors
+                </th>
+                <th scope="col">
+                    SeatingCapacity
+                </th>
+                <th scope="col">
+                   model.FuelType
+                </th>
+                <th scope="col">
+                   Year
+                </th>
+                <th scope="col">
+                   ManufacturerID
+                </th>
+                <th scope="col">
+                   SupplierID
+                </th>
+                <th scope="col">
+                   CarStatus
+                </th>
+                <th scope="col">
+                   CarRentingPricePerDay
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.CarId
+                    </td>
+                    <td>
+                        @item.CarName
+                    </td>
+                    <td>
+                        @item.CarDescription
+                    </td>
+                    <td>
+                        @item.NumberOfDoors
+                    </td>
+                    <td>
+                        @item.SeatingCapacity
+                    </td>
+                    <td>
+                        @item.FuelType
+                    </td>
+                    <td>
+                        @item.Year
+                    </td>
+                    <td>
+                        @item.ManufacturerId
+                    </td>
+                    <td>
+                        @item.SupplierId
+                    </td>
+                    <td>
+                        @item.CarStatus
+                    </td>
+                    <td>
+                        @item.CarRentingPricePerDay
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.CarId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.CarId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.CarId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

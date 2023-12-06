@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Update Infomation";
+}
+
+<div class="d-flex flex-column align-items-left" style="width: 100%;">
+    <h1 class="display-4 mb-5">Update infomation</h1>
+    <form asp-controller="User" asp-action="SubmitUpdate" style="width: 60%">
+        <div class="form-group d-flex align-items-center justify-content-left">
+            <input class="form-control" name="emailaddress" style="width: 70%;" placeholder="EmailAddress" value="@ViewBag.Mail" />
+        </div>
+        <div class="text-danger my-4">@ViewBag.EmailExistError</div>
+        <div class="form-group d-flex align-items-center justify-content-left">
+            <input class="form-control" name="username" style="width: 70%;" placeholder="UserName" value="@ViewBag.name" />
+        </div>
+        <div class="form-group d-flex align-items-center justify-content-left">
+            <input class="form-control" name="telephone" style="width: 70%;" placeholder="PhoneNumber" value="@ViewBag.phone" />
+        </div>
+        <div class="form-group d-flex align-items-center justify-content-left">
+            Birthday: <input class="form-control" type="date" name="birthday" style="width: 70%;" value="@ViewBag.date" />
+        </div>
+        <div class="form-group d-flex align-items-center justify-content-left">
+            <input class="form-control" type="password" name="memberpassword" style="width: 70%;" placeholder="MemberPassword" />
+        </div>
+        <div class="form-group d-flex align-items-center justify-content-left">
+            <input class="form-control" type="password" name="confirmpassword" style="width: 70%;" placeholder="ConfirmMemberPassword" />
+        </div>
+        <div class="text-danger my-4">@ViewBag.ConfirmPasswordError</div>
+
+        <div class="d-flex justify-content-left">
+            <input type="submit" class="btn btn-primary px-3" style="width: 30%;" value="Update" />
+        </div>
+    </form>
+</div>
